@@ -1,0 +1,159 @@
+[
+    {
+    "id": "0xEillo_Lab2__80516a2f__Q5",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": []
+    }
+  },
+  {
+    "id": "880n_dancing_lights__8ba075db__snake",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": [
+        {
+          "line": 124,
+          "variable_name": "dir",
+          "access_type": "write"
+        },
+        {
+          "line": 207,
+          "variable_name": "dir",
+          "access_type": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1102-Partovi-Kiana_CPE301-Final-Project__87e0289d__ISR",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": [
+        {
+          "line": 29,
+          "variable_name": "masterButton",
+          "access_type": "read"
+        },
+        {
+          "line": 40,
+          "variable_name": "masterButton",
+          "access_type": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "AccentedMatt_SimpleTrafficLight-Arduino__896c0c16__main",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": [
+        {
+          "line": 82,
+          "variable_name": "pedestrianRequest",
+          "access_type": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "alanesq_BasicOLEDMenu__a0cb0cad__oled",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": [
+        {
+          "line": 423,
+          "variable_name": "rotaryEncoder.encoder0Pos",
+          "access_type": "read"
+        },
+        {
+          "line": 424,
+          "variable_name": "rotaryEncoder.encoder0Pos",
+          "access_type": "write"
+        },
+        {
+          "line": 428,
+          "variable_name": "rotaryEncoder.encoder0Pos",
+          "access_type": "read"
+        },
+        {
+          "line": 429,
+          "variable_name": "rotaryEncoder.encoder0Pos",
+          "access_type": "write"
+        },
+        {
+          "line": 497,
+          "variable_name": "rotaryEncoder.encoder0Pos",
+          "access_type": "read"
+        },
+        {
+          "line": 498,
+          "variable_name": "rotaryEncoder.encoder0Pos",
+          "access_type": "write"
+        },
+        {
+          "line": 502,
+          "variable_name": "rotaryEncoder.encoder0Pos",
+          "access_type": "read"
+        },
+        {
+          "line": 503,
+          "variable_name": "rotaryEncoder.encoder0Pos",
+          "access_type": "write"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bobmcwhirter_Toes__a2c1ec6b__Toes",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": [
+        {
+          "line": 65,
+          "variable_name": "lastPressStart",
+          "access_type": "read"
+        },
+        {
+          "line": 66,
+          "variable_name": "lastPressStart",
+          "access_type": "read"
+        },
+        {
+          "line": 67,
+          "variable_name": "pressState",
+          "access_type": "read"
+        },
+        {
+          "line": 69,
+          "variable_name": "stitchNum",
+          "access_type": "write"
+        },
+        {
+          "line": 71,
+          "variable_name": "pressState",
+          "access_type": "write"
+        },
+        {
+          "line": 72,
+          "variable_name": "pressState",
+          "access_type": "read"
+        },
+        {
+          "line": 74,
+          "variable_name": "stitchNum",
+          "access_type": "write"
+        },
+        {
+          "line": 76,
+          "variable_name": "pressState",
+          "access_type": "write"
+        },
+        {
+          "line": 124,
+          "variable_name": "stitchNum",
+          "access_type": "read"
+        }
+      ]
+    }
+  }
+]
