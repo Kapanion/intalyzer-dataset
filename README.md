@@ -72,16 +72,18 @@
 - [ ] Sealinus_CHATIKP__3a559d22__rx.ino
 - [ ] skallet_arduino-sprouter__a2a8284f__pump.ino
 - [ ] slimjim2234_Automated-Water-Softener__4089efa2__main.ino
-- [ ] speccyfan_wm__2fa8ea8b__wm.ino
+- [X] speccyfan_wm__2fa8ea8b__wm.ino
 - [ ] StaziaPhoenix_stoops-scanner__cad09205__Main.ino
 - [ ] tesnimmmeee_inertiaWheelPendulum__9a964409__lqr.ino
-- [ ] TheCorruptedEngineer_ESP32-Websocket-fan-controller__c545f795__main.ino
-- [ ] Thenlie_6502__1fbc303a__6502.ino
+- [X] TheCorruptedEngineer_ESP32-Websocket-fan-controller__c545f795__main.ino
+- [X] Thenlie_6502__1fbc303a__6502.ino
 - [ ] Timoite_IDP__425d368c__main.ino
 - [ ] Udicn_pet_wash__86335685__11.ino
 - [ ] VI-solutions-dev_VI_bot_functionalites__e8faa873__Works.ino
 - [ ] wepo_GPS_by_LoRaWAN_to_TTN_on_AVR__c657e2bf__L8G.ino
-- [ ] Xinyuan-LilyGO_LilyGo-T-Wristband-NRF52__3a896999__Timer.ino
 - [ ] ynshung_smart-street-lamp-iot__fccfdce9__main.ino
-- [ ] zappityzap_compost-sensor__e58bdb59__tx.ino
-- [ ] ZekeriyaAY_Arduino-Walkie-Talkie__e5af3e12__main.ino
+- [X] zappityzap_compost-sensor__e58bdb59__tx.ino
+- [X] ZekeriyaAY_Arduino-Walkie-Talkie__e5af3e12__main.ino
+
+## Notes
+- Removed `Xinyuan-LilyGO_LilyGo-T-Wristband-NRF52__3a896999__Timer.ino` because it uses `timer.attachInterrupt()`, a method not supported.
