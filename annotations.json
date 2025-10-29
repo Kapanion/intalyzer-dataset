@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": "0xEillo_Lab2__80516a2f__Q5",
     "metadata": {},
     "annotation": {
@@ -152,6 +152,161 @@
           "line": 124,
           "variable_name": "stitchNum",
           "access_type": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ZekeriyaAY_Arduino-Walkie-Talkie__e5af3e12__main",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": []
+    }
+  },
+  {
+    "id": "zappityzap_compost-sensor__e58bdb59__tx",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": [
+        {
+          "line": 137,
+          "variable_name": "alarmFlag",
+          "access_type": "read"
+        },
+        {
+          "line": 138,
+          "variable_name": "alarmFlag",
+          "access_type": "write"
+        },
+        {
+          "line": 197,
+          "variable_name": "alarmFlag",
+          "access_type": "write"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ynshung_smart-street-lamp-iot__fccfdce9__main",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": [
+        {
+          "line": 50,
+          "variable_name": "PIRvalue",
+          "access_type": "write"
+        },
+        {
+          "line": 51,
+          "variable_name": "lastTrigger",
+          "access_type": "write"
+        },
+        {
+          "line": 185,
+          "variable_name": "PIRvalue",
+          "access_type": "read"
+        },
+        {
+          "line": 186,
+          "variable_name": "PIRvalue",
+          "access_type": "write"
+        },
+        {
+          "line": 191,
+          "variable_name": "PIRvalue",
+          "access_type": "read"
+        },
+        {
+          "line": 202,
+          "variable_name": "PIRvalue",
+          "access_type": "read"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Xinyuan-LilyGO_LilyGo-T-Wristband-NRF52__3a896999__Timer",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": []
+    }
+  }
+  ,
+  {
+    "id": "Thenlie_6502__1fbc303a__6502",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": []
+    }
+  }
+  ,
+  {
+    "id": "TheCorruptedEngineer_ESP32-Websocket-fan-controller__c545f795__main",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": []
+    }
+  }
+  ,
+  {
+    "id": "speccyfan_wm__2fa8ea8b__wm",
+    "metadata": {},
+    "annotation": {
+      "race_conditions": [
+        {
+          "line": 368,
+          "variable_name": "motor_on",
+          "access_type": "write"
+        },
+        {
+          "line": 370,
+          "variable_name": "count_coils",
+          "access_type": "read"
+        },
+        {
+          "line": 373,
+          "variable_name": "count_coils",
+          "access_type": "read"
+        },
+        {
+          "line": 398,
+          "variable_name": "steps1",
+          "access_type": "read"
+        },
+        {
+          "line": 408,
+          "variable_name": "motor_on",
+          "access_type": "write"
+        },
+        {
+          "line": 418,
+          "variable_name": "motor_on",
+          "access_type": "write"
+        },
+        {
+          "line": 425,
+          "variable_name": "motor_on",
+          "access_type": "write"
+        },
+        {
+          "line": 438,
+          "variable_name": "motor_on",
+          "access_type": "read"
+        },
+        {
+          "line": 440,
+          "variable_name": "count_coils",
+          "access_type": "write"
+        },
+        {
+          "line": 441,
+          "variable_name": "steps1",
+          "access_type": "write"
+        },
+        {
+          "line": 450,
+          "variable_name": "steps1",
+          "access_type": "write"
         }
       ]
     }
