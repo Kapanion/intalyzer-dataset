@@ -225,14 +225,6 @@
     }
   },
   {
-    "id": "Xinyuan-LilyGO_LilyGo-T-Wristband-NRF52__3a896999__Timer",
-    "metadata": {},
-    "annotation": {
-      "race_conditions": []
-    }
-  }
-  ,
-  {
     "id": "Thenlie_6502__1fbc303a__6502",
     "metadata": {},
     "annotation": {
