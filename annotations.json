@@ -244,7 +244,23 @@
     "id": "TheCorruptedEngineer_ESP32-Websocket-fan-controller__c545f795__main",
     "metadata": {},
     "annotation": {
-      "race_conditions": []
+      "race_conditions": [
+        {
+          "line": 17,
+          "variable_name": "counter_rpm",
+          "access_type": "write"
+        },
+        {
+          "line": 262,
+          "variable_name": "counter_rpm",
+          "access_type": "write"
+        },
+        {
+          "line": 266,
+          "variable_name": "counter_rpm",
+          "access_type": "read"
+        }
+      ]
     }
   }
   ,
