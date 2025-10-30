@@ -87,3 +87,4 @@
 
 ## Notes
 - Removed `Xinyuan-LilyGO_LilyGo-T-Wristband-NRF52__3a896999__Timer.ino` because it uses `timer.attachInterrupt()`, a method not supported.
+- Removed `zappityzap_compost-sensor__e58bdb59__tx.ino` because it uses `RTCZero.attachInterrupt()`, a method not supported
