@@ -164,29 +164,6 @@
     }
   },
   {
-    "id": "zappityzap_compost-sensor__e58bdb59__tx",
-    "metadata": {},
-    "annotation": {
-      "race_conditions": [
-        {
-          "line": 137,
-          "variable_name": "alarmFlag",
-          "access_type": "read"
-        },
-        {
-          "line": 138,
-          "variable_name": "alarmFlag",
-          "access_type": "write"
-        },
-        {
-          "line": 197,
-          "variable_name": "alarmFlag",
-          "access_type": "write"
-        }
-      ]
-    }
-  },
-  {
     "id": "ynshung_smart-street-lamp-iot__fccfdce9__main",
     "metadata": {},
     "annotation": {
