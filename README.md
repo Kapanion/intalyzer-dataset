@@ -82,7 +82,6 @@
 - [ ] VI-solutions-dev_VI_bot_functionalites__e8faa873__Works.ino
 - [ ] wepo_GPS_by_LoRaWAN_to_TTN_on_AVR__c657e2bf__L8G.ino
 - [ ] ynshung_smart-street-lamp-iot__fccfdce9__main.ino
-- [X] zappityzap_compost-sensor__e58bdb59__tx.ino
 - [X] ZekeriyaAY_Arduino-Walkie-Talkie__e5af3e12__main.ino
 
 ## Notes
