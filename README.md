@@ -63,11 +63,9 @@
 - [ ] MohammedMMC_plant-project-on-wokwi__ddff0022__sketch.ino
 - [ ] Mrs-Feathers_arduino-watch-computer__deb93f54__watch.ino
 - [ ] mxngocqb_Embedded-Systems__176c4108__src.ino
-- [ ] norrisrahman_AV_ESC__dfbe477c__AV_ESC.ino
 - [ ] octosavvi_ESPKey__0be928be__ESPKey.ino
 - [ ] OxMarco_BadUSB__393ab2ba__code.ino
 - [ ] OzanEFETopcu_Embedded-Systems__21306eb1__motor.ino
-- [ ] raszhivin_arpeggio2__9d63db70__main.ino
 - [ ] RoomSpy_Hardware__eb1d7f74__esp.ino
 - [ ] Sealinus_CHATIKP__3a559d22__rx.ino
 - [ ] skallet_arduino-sprouter__a2a8284f__pump.ino
@@ -87,3 +85,5 @@
 ## Notes
 - Removed `Xinyuan-LilyGO_LilyGo-T-Wristband-NRF52__3a896999__Timer.ino` because it doesn't use `attachInterrupt()`. (It uses `timer.attachInterrupt()`, a method we are not interested in.)
 - Removed `zappityzap_compost-sensor__e58bdb59__tx.ino` because it doesn't use `attachInterrupt()`. (It uses `RTCZero.attachInterrupt()`, a method we are not interested in.)
+- Removed `raszhivin_arpeggio2__9d63db70__main.ino`, uses `Timer1.attachInterrupt(updateControls)`, not applicable.
+- Removed `norrisrahman_AV_ESC__dfbe477c__AV_ESC.ino`, interrupt commented.
